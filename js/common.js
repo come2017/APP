@@ -1,4 +1,8 @@
 ﻿(function(w){
+
+document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2+ 'px';
+
+
 // 空函数
 function shield(){
 	return false;

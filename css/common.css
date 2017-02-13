@@ -28,7 +28,20 @@ body {
 .fr{
 	float: right;
 }
-
+.bg-colorRed{
+	background-color: #D63C3D;
+}
+.bg-colorYellow{
+	background-color: #FF9F00;
+}
+.w50{
+	width: 50%;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
 /*公告样式*/
 
 header {
@@ -38,4 +51,149 @@ header {
 	background: #D63C3D url(../img/lxj-ico2.png) no-repeat center center;
 	background-size: 2.23rem auto;
 	-ms-touch-action: none;
+}
+
+/*首页- 商品标题*/
+.title-shop{
+	height: 0.72rem;
+	background: #F0F0F0;
+	margin: 0;
+	padding: 0 0.44rem;
+	line-height: 0.8rem;
+	font-size: 0px;
+	position: relative;
+}
+.title-shop .title-head{
+	font-size: 0.28rem;
+	color: #4F4F4F;
+	margin-right: 0.05rem;
+}
+.title-shop .title-head i{
+	display: block;
+	width: 0.33rem;
+	height: 0.33rem;
+	position: absolute;
+	left: 0.18rem;
+	top: 0.15rem;
+}
+.title-shop .title-head i.ico1{
+	background: url(../img/lxj-ico8.png) no-repeat;
+	background-size: 100% auto;
+}
+.title-shop .title-head i.ico2{
+	background: url(../img/lxj-ico9.png) no-repeat;
+	background-size: 100% auto;
+}
+.title-shop .title-txt{
+	font-size: 0.18rem;
+	color: #fff;
+	padding: 4px;
+	font-weight: normal;
+	border-radius: 3px;
+	position: relative;
+	top: -2px;
+}
+
+/*首页-商品列表*/
+.shop-box{
+	background: #fff;
+}
+.shop-box:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.shop-box>div{
+	padding-top: 0.1rem;
+	padding-bottom: 0.2rem;
+	border-top: solid 1px #E8E8E8;
+	border-right: solid 1px #E8E8E8;
+	background: #fff;
+}
+.shop-box>div:nth-of-type(even){
+	border-right: 0;
+}
+.shop-box .shop-img{
+	width: 3.2rem;
+	height: 3.2rem;
+	display: block;
+	margin: 0 auto;
+}
+.shop-box i{
+	font-style: normal;
+}
+.shop-box .shop-introduce{
+	width: 100%;
+	height: 0.5rem;
+	padding: 0.1rem 0.23rem;
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+	overflow: hidden; 
+	font-size: 0;	
+}
+.shop-box .shop-label{
+	font-size: 0.2rem;
+	color: #707070;
+}
+.shop-box .shop-txt{
+	font-size: 0.26rem;
+	color: #333;
+}
+.shop-box .shop-money{
+	width: 100%;
+	height: 0.5rem;
+	padding: 0.1rem 0.23rem;
+	font-size: 0;
+}
+.shop-box .shop-moneyNum{
+	font-size: 0.2rem;
+	color: #D63C3D;
+}
+.shop-box .shop-num{
+	font-size: 0.2rem;
+	color: #666;
+}
+.shop-box .shop-buy{
+	text-align: center;
+	padding: 0.1rem 0;
+	font-size: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.shop-box .shop-apply{
+	display: inline-block;
+	width: 2rem;
+	height: 0.44rem;
+	background: #D63C3D;
+	text-align: center;
+	line-height: 0.44rem;
+	color: #fff;
+	font-size: 0.24rem;
+	border-radius: 2px;
+	vertical-align: middle;
+}
+.shop-box .shop-phone{
+	display: inline-block;
+	width: 0.22rem;
+	height: 0.38rem;
+	background: url(../img/lxj-ico10.png) no-repeat;
+	background-size: 100% auto;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+/*加载更多*/
+.loading{
+	width: 100%;
+	height: 1.7rem;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.loading i{
+	width: 0.22rem;
+	height: 0.22rem;
+	background: url(../img/lxj-ico11.png) no-repeat;
+	background-size: 100% auto;
+	display: inline-block;
+	margin-right: 5px;
 }

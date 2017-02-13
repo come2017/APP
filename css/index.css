@@ -1,0 +1,37 @@
+.index-Hsearch{
+	width: 0.44rem;
+	height: 0.44rem;
+	background: url(../img/lxj-ico1.png) no-repeat center;
+	background-size: 100% auto;
+	margin-top: 0.23rem;
+}
+.index-Huser{
+	width: 0.44rem;
+	height: 0.44rem;
+	background: url(../img/lxj-ico3.png) no-repeat center;
+	background-size: 100% auto;
+	margin-top: 0.23rem;
+}
+
+/*轮播图*/
+.mui-slider-indicator{
+	bottom: 0;
+	height: 0.06rem;
+	display: -moz-box;
+	display: -webkit-box;
+	display: box;
+	background: #D9D9D9;
+}
+.mui-slider-indicator .mui-indicator{
+	height: 100%;
+	width: auto;
+	margin: 0;
+	display: block;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-shadow: none;
+	border-radius: initial;
+}
+.mui-slider-indicator .mui-active.mui-indicator{
+	background: #FF9F00;
+}

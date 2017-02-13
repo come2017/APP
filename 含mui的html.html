@@ -8,16 +8,39 @@
 		<link href="css/mui.min.css" rel="stylesheet" />
 		<link href="css/common.css" rel="stylesheet" />
 		<link href="css/index.css" rel="stylesheet" />
+		<script>
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2+ 'px';
+		</script>
 	</head>
 
 	<body>
-		
+		<!--头部菜单栏-->
 		<header>
-		
+			<a class="index-Hsearch fl" href="javascript:void(0);"></a>
+			<a class="index-Huser fr" href="javascript:void(0);"></a>
 		</header>
+		<!--头部菜单栏-->
+		
+		<section class="index-banner">
+			<div class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!--支持循环，需要重复图片节点-->
+				    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/ifa/lxj-jpg2.jpg" /></a></div>
+				    <div class="mui-slider-item"><a href="#"><img src="img/ifa/lxj-jpg1.jpg" /></a></div>
+				    <div class="mui-slider-item"><a href="#"><img src="img/ifa/lxj-jpg2.jpg" /></a></div>
+				    <!--支持循环，需要重复图片节点-->
+				    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/ifa/lxj-jpg1.jpg" /></a></div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+		</section>
 	
 		<script src="js/mui.min.js"></script>
 		<script src="js/common.js"></script>
+		<script src="js/index.js"></script>
 		<script type="text/javascript">
 			mui.init()
 		</script>

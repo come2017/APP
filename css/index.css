@@ -43,6 +43,15 @@
 	display: box;
 	background: #fff;
 }
+.index-Grid.index-Gfixed{
+	top:0;
+	width:100%;
+	position:fixed;
+	z-index: 100;
+}
+.index-Special.index-Sfixed{
+	padding-top: 1.46rem;
+}
 .index-Grid>li{
 	height: 1.46rem;
 	-moz-box-flex: 1;

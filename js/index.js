@@ -11,15 +11,44 @@
 			//轮播自定义事件
 			this.slide();
 			
+			//初始化scroll事件
+			this._scroll( window );
+			
 		},
 		
 		//节点
 		Doc : {
-			lbOl : document.querySelector(".index-bannerOl")
+			lbOl : document.querySelector(".index-bannerOl"),
+			
+			nav : document.querySelector(".index-Grid"),
+			
+			special : document.querySelector(".index-Special")
 		},
 		
-		//事件
-		Event : function(){
+		/*scroll事件*/
+		_scroll : function(window){
+			var _this = this;
+			
+			var top = _this.Doc.nav.offsetTop;
+			
+			
+			
+			window.onscroll = function( ev ){
+				
+				var t = document.documentElement.scrollTop || document.body.scrollTop;
+				
+				if( t >= top ){
+					_this.Doc.nav.className = "index-Grid index-Gfixed";
+					_this.Doc.special.className = "index-Special index-Sfixed";
+				}else{
+					_this.Doc.nav.className = "index-Grid";
+					_this.Doc.special.className = "index-Special";
+				}
+				
+				
+				
+				
+			};
 			
 		},
 		

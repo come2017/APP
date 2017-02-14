@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "url": "img/ifa/lxj-jpg8.jpg",
+      "label": "淘宝",
+      "title" : "【新人专享】买不了吃亏，买不了上当",
+      "money" : "99",
+      "num" : "9999"
+    },
+    {
+      "url": "img/ifa/lxj-jpg9.jpg",
+      "label": "京东",
+      "title" : "【新人专享】吐血大甩卖！",
+      "money" : "999",
+      "num" : "1000"
+    },
+    {
+      "url": "img/ifa/lxj-jpg8.jpg",
+      "label": "淘宝",
+      "title" : "【新人专享】买不了吃亏，买不了上当",
+      "money" : "99",
+      "num" : "9999"
+    },
+    {
+      "url": "img/ifa/lxj-jpg9.jpg",
+      "label": "京东",
+      "title" : "【新人专享】吐血大甩卖！",
+      "money" : "999",
+      "num" : "1000"
+    },
+    {
+      "url": "img/ifa/lxj-jpg8.jpg",
+      "label": "淘宝",
+      "title" : "【新人专享】买不了吃亏，买不了上当",
+      "money" : "99",
+      "num" : "9999"
+    },
+    {
+      "url": "img/ifa/lxj-jpg9.jpg",
+      "label": "京东",
+      "title" : "【新人专享】吐血大甩卖！",
+      "money" : "999",
+      "num" : "1000"
+    }
+  ],
+  "page" : 3
+}

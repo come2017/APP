@@ -27,7 +27,11 @@
 			"img/lxj-ico1.png",
 			"img/lxj-ico2.png",
 			"js/index.js",
-			"img/lxj-ico3.png"
+			"img/lxj-ico3.png",
+			"fonts/mui.ttf",
+			"json/data.json",
+			"img/ifa/lxj-jpg9.jpg",
+			"img/ifa/lxj-jpg8.jpg"
 		]
 	}
 }

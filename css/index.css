@@ -108,27 +108,8 @@
 }
 
 /*清楚MUICSS样式影响*/
-.mui-table-view:before {
-    position: absolute;
-    right: 0;
-    left: 0;
-    height: 0;
-    content: '';
-    -webkit-transform: scaleY(.5);
-    transform: scaleY(.5);
-    background-color: #c8c7cc;
-    top: -1px;
-}
-.mui-table-view:after {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 0;
-    content: '';
-    -webkit-transform: scaleY(.5);
-    transform: scaleY(.5);
-    background-color: #c8c7cc;
+.mui-scroll-wrapper{
+	position: relative;
 }
 
 

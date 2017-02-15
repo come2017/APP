@@ -4,3 +4,8 @@
 	font-size: 0.3rem;
 	line-height: 0.9rem;
 }
+
+/*修改MUI 图标默认大小*/
+.mui-icon{
+	font-size: 0.26rem;
+}

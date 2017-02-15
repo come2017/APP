@@ -243,6 +243,9 @@ header {
 
 /*功能排序*/
 .fun-box{
+	
+}
+.fun-list{
 	width: 100%;
 	height: 0.82rem;
 	background: #fff;
@@ -251,18 +254,18 @@ header {
 	display: -webkit-box;
 	display: box;
 }
-.fun-box .fun-sort{
+.fun-list .fun-sort{
 	width: 5.37rem;
 	height: 100%;
 }
-.fun-box .fun-menu , .fun-box .fun-search{
+.fun-list .fun-menu , .fun-list .fun-search{
 	-moz-box-flex: 1;
 	-webkit-box-flex: 1;
 	box-flex:1;
 	height: 100%;
 	text-align: center;	
 }
-.fun-box .fun-menu span{
+.fun-list .fun-menu span{
 	width: 0.38rem;
 	height: 100%;
 	background: url(../img/lxj-ico13.png) no-repeat center;
@@ -270,7 +273,7 @@ header {
 	display: block;
 	margin: auto;
 }
-.fun-box .fun-search span{
+.fun-list .fun-search span{
 	width: 0.5rem;
 	height: 100%;
 	background: url(../img/lxj-ico15.png) no-repeat center;
@@ -278,12 +281,12 @@ header {
 	display: block;
 	margin: auto;
 }
-.fun-box .fun-sort ul{
+.fun-list .fun-sort ul{
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
-.fun-box .fun-sort ul li{
+.fun-list .fun-sort ul li{
 	float: left;
 	width: 25%;
 	height: 100%;
@@ -292,12 +295,123 @@ header {
 	text-align: center;
 	font-size: 0;
 }
-.fun-box .fun-sort ul li:last-child{
+.fun-list .fun-sort ul li:last-child{
 	border-right: solid 1px #D9D9D9;
 }
-.fun-box .fun-sort ul li span{
+.fun-list .fun-sort ul li span{
 	font-size: 0.28rem;
 	color: #666;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+/*侧滑内容*/
+.fun-content{	
+	padding: 0 10px;
+}
+.fun-content .fun-Cservice{
+	font-size: 0;
+	height: 0.9rem;
+	line-height: 0.9rem;
+}
+.fun-content .fun-Cservice .fun-span1{
+	color: #333;
+	font-size: 0.24rem;
+	display: inline-block;
+	width: 1.2rem;
+	float: left;
+}
+.fun-content .fun-Cservice .fun-span2{
+	color: #D63C3D;
+	font-size: 0.16rem;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-left: 1.2rem;
+	display: block;
+	width: 3rem;
+}
+.fun-Clist .fun-h3{
+	font-size: 0.3rem;
+	padding: 0.1rem 0;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+}
+.fun-fl dt{
+	font-size: 0.3rem;
+	padding: 0.1rem 0 0.2rem;
+	font-weight: normal;
+	color: #333;
+}
+.fun-fl dd li{
+	float: left;
+	width: 33.33%;
+	height: 0.6rem;
+	padding: 0 5px;
+	line-height: 0.6rem;
+	margin-bottom: 10px;	
+}
+.fun-fl dd li:nth-of-type(1){ 
+	padding-left: 0;
+}
+.fun-fl dd li:nth-of-type(3){ 
+	padding-right: 0;
+}
+.fun-fl dd li:nth-of-type(4){ 
+	padding-left: 0;
+}
+.fun-fl dd li:nth-of-type(6){ 
+	padding-right: 0;
+}
+.fun-fl dd li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #DDDDDD;
+	border-radius: 3px;
+	text-align: center;
+	color:#333;
+	font-size: 0.2rem;	
+}
+.fun-fl dd li a.active{
+	background: #fff;
+	border: solid 1px red;
+	color: #D63C3D;
+}
+.fun-fl dd li a.active:before{
+	font-family: Muiicons;
+	content: '\e472';
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #D63C3D;
+	vertical-align: middle;
+}
+.fun-sub{
+	width: 100%;
+	height: 50px;
+	border-top: solid 1px #ddd;
+	position: absolute;
+	bottom: 0px;
+	z-index: 10000;
+	background: #fff;
+}
+.fun-sub li{
+	width: 50%;
+	height: 100%;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	color: #333333;
+	font-size: 16px;
+}
+.fun-sub li:last-child{
+	background: #D63C3D;
+	color: #fff;
+}
+
+
+/*侧滑容器 背景白色*/
+.mui-off-canvas-left, .mui-off-canvas-right{
+	background: #fff;
 }

@@ -31,7 +31,34 @@
 			"fonts/mui.ttf",
 			"json/data.json",
 			"img/ifa/lxj-jpg9.jpg",
-			"img/ifa/lxj-jpg8.jpg"
+			"img/ifa/lxj-jpg8.jpg",
+			"www/area.html"
+		],
+		"refer": [
+			"www/area.html"
+		]
+	},
+	"www/area.html": {
+		"resources": [
+			"img/lxj-ico12.png",
+			"css/common.css",
+			"fonts/mui.ttf",
+			"css/area.css",
+			"js/area.js",
+			"css/mui.min.css",
+			"img/lxj-ico15.png",
+			"img/lxj-ico13.png",
+			"index.html",
+			"img/ifa/lxj-jpg6.jpg",
+			"img/ifa/lxj-jpg7.jpg",
+			"js/common.js",
+			"img/lxj-ico10.png",
+			"js/mui.min.js",
+			"js/update.js",
+			"img/lxj-ico3.png"
+		],
+		"refer": [
+			"index.html"
 		]
 	}
 }

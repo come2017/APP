@@ -8,11 +8,17 @@
 		//初始化
 		init : function(){			
 			
+			//页面链接
+			this.href();
+			
 			//轮播自定义事件
 			this.slide();
 			
 			//初始化scroll事件
 			this._scroll( window );
+			
+			//商品加载
+			this.shop_loding();
 			
 		},
 		
@@ -43,10 +49,7 @@
 				}else{
 					_this.Doc.nav.className = "index-Grid";
 					_this.Doc.special.className = "index-Special";
-				}
-				
-				
-				
+				}		
 				
 			};
 			
@@ -60,12 +63,26 @@
 			
 			gallery.slider({
 				interval:2000//自动轮播周期，若为0则不自动播放，默认为0；
+			});							
+		},
+		
+		//页面链接
+		href : function(){
+			
+			document.querySelector(".href_area") .addEventListener('tap',function(){
+				
+				mui.openWindow({
+				    url:'www/area.html'
+				});
+				
 			});
 			
-			
+		},
+		
+		//试用商品加载
+		shop_loding : function(){
 			
 		}
-		
 		
 	};
 	

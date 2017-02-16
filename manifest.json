@@ -1529,7 +1529,11 @@
 					"img/lxj-ico10.png",
 					"js/mui.min.js",
 					"js/update.js",
-					"img/lxj-ico3.png"
+					"img/lxj-ico3.png",
+					"img/lxj-ico14.png",
+					"www/img/ifa/lxj-jpg9.jpg",
+					"www/img/ifa/lxj-jpg8.jpg",
+					"json/data.json"
 				],
 				"refer": [],
 				"priority": 0

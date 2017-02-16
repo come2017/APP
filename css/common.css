@@ -270,6 +270,10 @@ header {
 	display: block;
 	margin: auto;
 }
+.fun-list .fun-menu.active span{
+	background: url(../img/lxj-ico14.png) no-repeat center;
+	background-size: 100% auto;
+}
 .fun-list .fun-search span{
 	width: 0.5rem;
 	height: 100%;
@@ -277,6 +281,10 @@ header {
 	background-size: 100% auto;
 	display: block;
 	margin: auto;
+}
+.fun-list .fun-search.active span{
+	background: url(../img/lxj-ico16.png) no-repeat center;
+	background-size: 100% auto;
 }
 .fun-list .fun-sort ul{
 	width: 100%;
